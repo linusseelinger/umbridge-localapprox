@@ -1,7 +1,7 @@
 Local approximation microservice
 ===
 
-UM-Bridge based microservice for local approximation as used in local aproximation MCMC.
+UM-Bridge based microservice for local approximation as used in local aproximation MCMC (see e.g. https://arxiv.org/abs/2006.00032).
 
 Connects to an existing (Bayesian) posterior UM-Bridge model, itself provides fast local approximations to that posterior as an UM-Bridge model. To the UQ client, it just looks like a regular Bayesian posterior model again.
 
